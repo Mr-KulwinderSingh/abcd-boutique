@@ -4,7 +4,7 @@ image:
 tasks:
   - name: Set up Python environment
     init: pip install -r requirements.txt
-     command: python3 manage.py runserver 0.0.0.0:8000
+    command: python3 manage.py runserver 0.0.0.0:8000
 
 ports:
  - port: 8000
