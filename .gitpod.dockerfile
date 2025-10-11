@@ -1,4 +1,4 @@
-FROM gitpod/workspace-base
+FROM gitpod/workspace-python:latest
 
 RUN echo "CI version from base"
 
